@@ -30,6 +30,19 @@ npx -y @smithery/cli install @abhiz123/todoist-mcp-server --client claude
 npm install -g @abhiz123/todoist-mcp-server
 ```
 
+### Docker Installation
+```bash
+# Clone and build
+git clone https://github.com/abhiz123/todoist-mcp-server.git
+cd todoist-mcp-server
+docker build -t todoist-mcp-server .
+
+# Or use docker-compose
+docker-compose build
+```
+
+See `mcp-config.example.json` for Claude Code configuration example.
+
 ## Tools
 
 ### todoist_create_task
