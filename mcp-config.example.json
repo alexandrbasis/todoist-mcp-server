@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "todoist": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "--name", "todoist-mcp",
+        "-e", "TODOIST_API_TOKEN",
+        "todoist-mcp-server"
+      ],
+      "env": {
+        "TODOIST_API_TOKEN": "your-todoist-api-token-here"
+      }
+    }
+  }
+}

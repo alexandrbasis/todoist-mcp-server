@@ -12,6 +12,8 @@ dist/
 .DS_Store
 .vscode/
 .idea/
+.claude/
+.cursor/
 
 # Logs
 *.log
