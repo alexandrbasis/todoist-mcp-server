@@ -1,0 +1,8 @@
+services:
+  todoist-mcp:
+    build: .
+    container_name: todoist-mcp-server
+    stdin_open: true
+    tty: true
+    environment:
+      - TODOIST_API_TOKEN=${TODOIST_API_TOKEN}
