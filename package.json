@@ -35,9 +35,11 @@
   "homepage": "https://github.com/abhiz123/todoist-mcp-server#readme",
   "dependencies": {
     "@doist/todoist-api-typescript": "^3.0.3",
-    "@modelcontextprotocol/sdk": "0.5.0"
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "express": "^4.21.2"
   },
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "@types/node": "^22.10.1",
     "shx": "^0.3.4",
     "typescript": "^5.7.2"
